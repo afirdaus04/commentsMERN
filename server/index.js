@@ -16,6 +16,7 @@ app.use(cors());
 app.use('/posts', postRoutes);
 app.use("/user", userRouter);
 
+// Changing Databse to our own
 const CONNECTION_URL = 'mongodb+srv://daus0:polomarco@cluster0.flkq8lk.mongodb.net/?retryWrites=true&w=majority';
 const PORT = process.env.PORT|| 5000;
 

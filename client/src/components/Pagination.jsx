@@ -22,8 +22,8 @@ const Paginate = ({ page }) => {
   return (
     <Pagination
       classes={{ ul: classes.ul }}
-      count={numberOfPages}
-      page={Number(page) || 1}
+      count={numberOfPages} // numberOfPages count
+      page={Number(page) || 1} // current page
       variant="outlined"
       color="primary"
       renderItem={(item) => (

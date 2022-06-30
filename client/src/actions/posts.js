@@ -25,6 +25,7 @@ export const getPosts = (page) => async (dispatch) => {
   }
 };
 
+// The redux of get Post by Search
 export const getPostsBySearch = (searchQuery) => async (dispatch) => {
   try {
     dispatch({ type: START_LOADING });
